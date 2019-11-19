@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.serenegiant.libcommon"
+4    android:versionCode="280"
+5    android:versionName="6.8.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:7:2-74
+12        android:glEsVersion="0x00020000"
+12-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:7:16-48
+13        android:required="true" />
+13-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:7:49-72
+14    <uses-feature
+14-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:8:2-83
+15        android:name="android.hardware.usb.host"
+15-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:8:16-56
+16        android:required="false" />
+16-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:8:57-81
+17    <uses-feature
+17-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:9:2-82
+18        android:name="android.hardware.camera"
+18-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:9:16-54
+19        android:required="false" />
+19-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:9:55-79
+20
+21    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+21-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:11:2-75
+21-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:11:19-73
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:12:2-63
+22-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:12:19-61
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:13:2-75
+23-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:13:19-73
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:14:2-72
+24-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:14:19-70
+25    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+25-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:16:2-67
+25-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:16:19-65
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:17:2-61
+26-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:17:19-59
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:18:2-77
+27-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:18:19-75
+28
+29    <application
+29-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:20:2-33:16
+30        android:allowBackup="true"
+30-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:21:3-29
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:22:3-37
+34        android:label="@string/app_name"
+34-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:23:3-35
+35        android:supportsRtl="true"
+35-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:24:3-29
+36        android:theme="@style/AppTheme" >
+36-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:25:3-34
+37        <activity android:name="com.serenegiant.libcommon.MainActivity" >
+37-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:27:3-32:14
+37-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:27:13-41
+38            <intent-filter>
+38-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:28:4-31:20
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:29:5-56
+39-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:29:13-54
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:30:5-64
+41-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\app\src\main\AndroidManifest.xml:30:15-62
+42            </intent-filter>
+43        </activity>
+44
+45        <provider
+45-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+47            android:authorities="com.serenegiant.libcommon.lifecycle-process"
+47-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+48            android:exported="false"
+48-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+49            android:multiprocess="true" />
+49-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+50    </application>
+51
+52</manifest>

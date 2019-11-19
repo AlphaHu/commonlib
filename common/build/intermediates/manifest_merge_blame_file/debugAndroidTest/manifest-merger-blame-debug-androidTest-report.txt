@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.serenegiant.common.test" >
+4
+5    <uses-sdk
+5-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:11:5-15:77
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:13:22-53
+13        android:label="Tests for com.serenegiant.common.test"
+13-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:15:22-75
+14        android:targetPackage="com.serenegiant.common.test" />
+14-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:12:22-73
+15
+16    <application
+16-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:7:5-9:19
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true" >
+18-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:7:18-43
+19        <uses-library android:name="android.test.runner" />
+19-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:8:9-60
+19-->D:\Users\alpha_hu\AndroidStudioProjects\libcommon-master\libcommon-master\common\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger5159097506304954413.xml:8:23-57
+20
+21        <provider
+21-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+22            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+22-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+23            android:authorities="com.serenegiant.common.test.lifecycle-process"
+23-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+24            android:exported="false"
+24-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+25            android:multiprocess="true" />
+25-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\alpha_hu\.gradle\caches\transforms-2\files-2.1\e50b3f7edd4f9041d2755ee263c7c860\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+26    </application>
+27
+28</manifest>
